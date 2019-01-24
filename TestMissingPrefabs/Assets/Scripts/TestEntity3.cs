@@ -15,4 +15,9 @@ public class TestEntity3 : MonoBehaviour
     {
         
     }
+
+    private void OnValidate()
+    {
+        
+    }
 }
