@@ -6,7 +6,7 @@ This is testing project to find out when prefab's asset ID changes that made ref
 
 ## The issue
 
-When build project, sometime at prefab's asset ID changes, I don't know why and when but I can noticed that problem happen to prefabs that attached component which have OnValidate function
+When build project, sometime, prefab's asset ID changes, I don't know why and when, but I can noticed that problem occur to prefabs that attached component which have OnValidate function
 
 ## How to test it
 
