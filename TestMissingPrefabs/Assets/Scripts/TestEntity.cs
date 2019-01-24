@@ -22,6 +22,7 @@ public class TestEntity : MonoBehaviour
     private void OnValidate()
     {
 #if UNITY_EDITOR
+        Debug.Log("[" + name + "] OnValidate()");
         EditorUtility.SetDirty(gameObject);
 #endif
     }
