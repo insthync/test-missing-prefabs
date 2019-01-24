@@ -5,10 +5,8 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-public class TestEntity : MonoBehaviour
+public class TestEntity2 : MonoBehaviour
 {
-    public TestEntity testReference;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +16,14 @@ public class TestEntity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnValidate()
     {
 #if UNITY_EDITOR
-        Debug.Log("[" + name + "]#type1 OnValidate()");
-        EditorUtility.SetDirty(gameObject);
+        Debug.Log("[" + name + "]#type2 OnValidate()");
+        EditorUtility.SetDirty(this);
 #endif
     }
 }

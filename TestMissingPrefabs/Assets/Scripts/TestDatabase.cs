@@ -6,4 +6,6 @@ using UnityEngine;
 public class TestDatabase : ScriptableObject
 {
     public TestEntity[] testEntities;
+    public TestEntity2[] testEntities2;
+    public TestEntity3[] testEntities3;
 }
