@@ -7,6 +7,8 @@ using UnityEditor;
 
 public class TestEntity : MonoBehaviour
 {
+    public TestEntity testReference;
+
     // Start is called before the first frame update
     void Start()
     {
